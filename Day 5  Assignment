@@ -12,11 +12,11 @@ factorial(num))
 
 # Using If Else condition
 
-n = int(input("Enter a number: "))
+n = 5;
 factorial = 1
-if n < 0: #Check if the number is negative
+if n < 0: 
    print("Factors do not exist for negative numbers.")
-elif n == 0: #Check if the number is zero
+elif n == 0:
    print("The factorial of 0 is 1.")
 else:
    for i in range(1,n + 1):
@@ -30,8 +30,8 @@ else:
 
 # Using Loop
 
-num=int(input("Enter a number to find factorial: "))
-factorial=1;  #declare and initialize factorial variable to one
+num=5;
+factorial=1; 
 if num<0:
    print("Factorial does not defined for negative integer");
 elif(num==0):
